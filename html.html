@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="e164a45e-c633-44f7-a530-fb7d5c95f051.jpg" alt="Icon" class="logo-icon">
+                <h1 class="write">Movies</h1>
+            </div>
+            <form class="search-btn">
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Quick Search"
+                    class="search"
+                />
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="indexes">
+        <div class="indexes-item">
+            <form>
+                <input
+                    type="text"
+                    id="searchnew"
+                    placeholder="Search Results"
+                    class="searchnew"
+                />
+            </form>
+        </div>
+        <div class="indexes-item">Team Core</div>
+        <div class="indexes-item">Designer</div>
+        <div class="indexes-item">Developer</div>
+        <div class="indexes-item">Mentors</div>
+        <div class="add"> <button class="add-button">+ADD</button></div>
+    </div>
+
+    <div class="content">
+        <div class="searchResultContainer">
+         
+            <div class="search-result"></div>
+        </div>
+
+        <div class="movieContainer"></div>
+    </div>
+</body>
+</html>
